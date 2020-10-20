@@ -4,11 +4,13 @@ using namespace std;
 
 class Chess{
 public:
-	int id;
+	int id = -1;
 	int top;
 	int bot;
 	int right;
 	int left;
+	bool used = false;
+
 
 	
 	void setValue(int id, int left, int top, int right, int bot){
@@ -19,4 +21,11 @@ public:
 		this->right = right;
 	}
 
+	bool empty(){
+		if (this->id == -1)
+		{
+			return true;
+		}
+		return false;
+	}
 };
