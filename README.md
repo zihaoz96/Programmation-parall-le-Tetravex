@@ -1,4 +1,7 @@
 # Programmation-parallele-Tetravex
+
+![Preview](mini-projet/logo.png)
+
 ## 1. Manuel d’utilisation
 ### Fichier
 `Chess.h`
